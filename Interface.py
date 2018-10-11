@@ -6,8 +6,8 @@
 from OKCoinAPI import OKCoinMarketAPI, OKCoinDealsAPI
 
 # init apikey，secretkey and RESTURL
-APIKEY = '9ef1e087-9076-4963-aad0-f27e1656ec6e'
-SECRETKEY = '4922E42156901EFC24EBF03CC769C573'
+APIKEY = 'your api key'
+SECRETKEY = 'your secret key'
 OKCOINRESTURL = 'www.okex.com'
 
 okmarketApi = OKCoinMarketAPI(OKCOINRESTURL, APIKEY, SECRETKEY)
